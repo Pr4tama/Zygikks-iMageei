@@ -153,6 +153,7 @@ DO_API(uint32_t, il2cpp_offset_of_array_bounds_in_array_object_header, ());
 DO_API(uint32_t, il2cpp_allocation_granularity, ());
 
 // liveness
+typedef void (*il2cpp_WorldChangedCallback)();
 DO_API(void*, il2cpp_unity_liveness_calculation_begin, (Il2CppClass * filter, int max_object_count, il2cpp_register_object_callback callback, void* userdata, il2cpp_WorldChangedCallback onWorldStarted, il2cpp_WorldChangedCallback onWorldStopped));
 DO_API(void, il2cpp_unity_liveness_calculation_end, (void* state));
 DO_API(void, il2cpp_unity_liveness_calculation_from_root, (Il2CppObject * root, void* state));
